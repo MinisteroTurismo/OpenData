@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:hydra="http://www.w3.org/ns/hydra/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+
+<dcatapit:Catalog rdf:about="https://www.ministeroturismo.gov.it/open-data/">
+  <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  <dct:title>Open Data del Ministero del Turismo</dct:title>
+  <dct:publisher>
+    <dcatapit:Agent rdf:about="WQF3ZW8F">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+      <dct:identifier>WQF3ZW8F</dct:identifier>
+      <foaf:name>Ministero del Turismo</foaf:name>
+    </dcatapit:Agent>
+  </dct:publisher>
+  <dct:description>Con il termine open data si fa riferimento alla pratica di mettere a disposizione dati in formato elaborabile che possono essere liberamente scaricati, riutilizzati e redistribuiti secondo quanto definito dalla licenza d’uso associata.
+
+Nel settore turistico italiano gli open data costituiscono una risorsa per promuovere l’innovazione e la trasparenza amministrativa. Favoriscono, inoltre, una visione più chiara e dettagliata sull’offerta ricettiva, sul patrimonio culturale e paesaggistico, nonché sulle figure professionali che operano nel turismo.
+
+Tali dati promuovono una partecipazione più consapevole e attiva da parte dei cittadini e degli operatori turistici, contribuendo a migliorare la gestione delle destinazioni e lo sviluppo sostenibile del settore.
+
+I dataset messi a disposizione sono suddivisi nelle seguenti sezioni:
+
+- Banca Dati Strutture Ricettive
+- Cammini religiosi
+- Professioni turistiche</dct:description>
+  <dct:language>it</dct:language>
+  <foaf:homepage rdf:resource="https://www.ministeroturismo.gov.it/open-data/#"/>
+  <dcat:themeTaxonomy>
+    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
+      <dct:title>Data Theme Vocabulary</dct:title>
+    </skos:ConceptScheme>
+  </dcat:themeTaxonomy>
+  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+  <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+  <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  <dcat:dataset rdf:resource="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-in-italia"/>
+  <dcat:dataset rdf:resource="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-per-area-territoriale"/>
+  <dcat:dataset rdf:resource="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-per-regione"/>
+  <dcat:dataset rdf:resource="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-per-provincia"/>
+  <dcat:dataset rdf:resource="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi-in-italia"/>
+  <dcat:dataset rdf:resource="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi-per-area-territoriale"/>
+  <dcat:dataset rdf:resource="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi-per-regione"/>
+  <dcat:dataset rdf:resource="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi"/>
+  <dcat:dataset rdf:resource="https://www.ministeroturismo.gov.it/open-data//professioni-turistiche"/>
+  <dcat:dataset rdf:resource="https://www.ministeroturismo.gov.it/open-data//guide-turistiche-con-diritto-di-stabilimento-per-paesi-eu"/>
+  <dcat:dataset rdf:resource="https://www.ministeroturismo.gov.it/open-data//guide-turistiche-con-diritto-di-stabilimento-per-paesi-extra-eu"/>
+  <dcat:dataset rdf:resource="https://www.ministeroturismo.gov.it/open-data//guide-turistiche-temporanee"/>
+  <dcat:dataset rdf:resource="https://www.ministeroturismo.gov.it/open-data//accompagnatori-turistici-per-paesi-eu"/>
+  <dcat:dataset rdf:resource="https://www.ministeroturismo.gov.it/open-data//accompagnatori-turistici-per-paesi-extra-eu"/>
+  <dcat:dataset rdf:resource="https://www.ministeroturismo.gov.it/open-data//direttori-tecnici-d’agenzia-di-viaggio-e-turismo-per-paesi-eu"/>
+  <dcat:dataset rdf:resource="https://www.ministeroturismo.gov.it/open-data//direttori-tecnici-d’agenzia-di-viaggio-e-turismo-per-paesi-extra-eu"/>
+  </dcatapit:Catalog>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/EDUC">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-in-italia">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:license/>
+    <dct:title>Banca Dati Strutture Ricettive in Italia</dct:title>
+    <dcat:landingPage rdf:resource="https://www.ministeroturismo.gov.it/open-data//"/>
+    <dct:description>Il dataset offre una panoramica dettagliata delle strutture ricettive in Italia registrate sulla piattaforma BDSR in conformità all’articolo 13-quater, comma 4, del decreto-legge 30 aprile 2019, n. 34, convertito, con modificazioni, dalla legge 28 giugno 2019, n. 58. Contiene dati relativi al numero di strutture registrate, il numero di codici identificativi nazionali (CIN) rilasciati e la percentuale di CIN rispetto alle strutture registrate. Il separatore delle risorse CSV è ";" (punto e virgola).</dct:description>
+    <dct:identifier>WQF3ZW8F:banca-dati-strutture-ricettive-in-italia</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="WQF3ZW8F">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100222">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">3231 informazione ed elaborazione dell'informazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dcat:keyword>Turismo</dcat:keyword>
+    <dcat:keyword>Strutture ricettive</dcat:keyword>
+    <dcat:keyword>CIN</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-in-italia/zip2"/>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-in-italia/csv3"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/EDUC">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-per-area-territoriale">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:license/>
+    <dct:title>Banca Dati Strutture Ricettive per Area Territoriale</dct:title>
+    <dcat:landingPage rdf:resource="https://www.ministeroturismo.gov.it/open-data//"/>
+    <dct:description>Il dataset offre una panoramica dettagliata delle strutture ricettive per Area Territoriale registrate sulla piattaforma BDSR in conformità all’articolo 13-quater, comma 4, del decreto-legge 30 aprile 2019, n. 34, convertito, con modificazioni, dalla legge 28 giugno 2019, n. 58. Contiene dati relativi al numero di strutture registrate, il numero di codici identificativi nazionali (CIN) rilasciati e la percentuale di CIN rispetto alle strutture registrate. Il separatore delle risorse CSV è ";" (punto e virgola).</dct:description>
+    <dct:identifier>WQF3ZW8F:banca-dati-strutture-ricettive-per-area-territoriale</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="WQF3ZW8F">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100222">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">3231 informazione ed elaborazione dell'informazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-05</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dcat:keyword>Turismo</dcat:keyword>
+    <dcat:keyword>Strutture ricettive</dcat:keyword>
+    <dcat:keyword>CIN</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-per-area-territoriale/zip4"/>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-per-area-territoriale/csv5"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/EDUC">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-per-regione">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:license/>
+    <dct:title>Banca Dati Strutture Ricettive per Regione</dct:title>
+    <dcat:landingPage rdf:resource="https://www.ministeroturismo.gov.it/open-data//"/>
+    <dct:description>Il dataset offre una panoramica dettagliata delle strutture ricettive per Regione registrate sulla piattaforma BDSR in conformità all’articolo 13-quater, comma 4, del decreto-legge 30 aprile 2019, n. 34, convertito, con modificazioni, dalla legge 28 giugno 2019, n. 58. Contiene dati relativi al numero di strutture registrate, il numero di codici identificativi nazionali (CIN) rilasciati e la percentuale di CIN rispetto alle strutture registrate. Il separatore delle risorse CSV è ";" (punto e virgola).</dct:description>
+    <dct:identifier>WQF3ZW8F:banca-dati-strutture-ricettive-per-regione</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="WQF3ZW8F">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100222">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">3231 informazione ed elaborazione dell'informazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-05</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dcat:keyword>Turismo</dcat:keyword>
+    <dcat:keyword>Strutture ricettive</dcat:keyword>
+    <dcat:keyword>CIN</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-per-regione/zip6"/>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-per-regione/csv7"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/EDUC">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-per-provincia">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:license/>
+    <dct:title>Banca Dati Strutture Ricettive per Provincia</dct:title>
+    <dcat:landingPage rdf:resource="https://www.ministeroturismo.gov.it/open-data//"/>
+    <dct:description>Il dataset offre una panoramica dettagliata delle strutture ricettive per Provincia registrate sulla piattaforma BDSR in conformità all’articolo 13-quater, comma 4, del decreto-legge 30 aprile 2019, n. 34, convertito, con modificazioni, dalla legge 28 giugno 2019, n. 58. Contiene dati relativi al numero di strutture registrate, il numero di codici identificativi nazionali (CIN) rilasciati e la percentuale di CIN rispetto alle strutture registrate. Il separatore delle risorse CSV è ";" (punto e virgola).</dct:description>
+    <dct:identifier>WQF3ZW8F:banca-dati-strutture-ricettive-per-provincia</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="WQF3ZW8F">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100222">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">3231 informazione ed elaborazione dell'informazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-05</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dcat:keyword>Turismo</dcat:keyword>
+    <dcat:keyword>Strutture ricettive</dcat:keyword>
+    <dcat:keyword>CIN</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-per-provincia/zip8"/>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-per-provincia/csv9"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/EDUC">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi-in-italia">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:license/>
+    <dct:title>Cammini religiosi in Italia</dct:title>
+    <dcat:landingPage rdf:resource="https://www.ministeroturismo.gov.it/open-data//"/>
+    <dct:description>Il dataset offre una panoramica dettagliata dei cammini religiosi ad oggi iscritti nel Catalogo dei cammini religiosi italiani in conformità all’avviso pubblico del 28/11/2022. Mostra il numero di cammini ad oggi iscritti, la somma complessiva dei loro tracciati, il numero dei tracciati in possesso di ognuno dei requisiti previsti: tracciato definito e percorribile, georeferenziazione, logo, segnaletica, sito web, servizi al turista, credenziale e soggetto di governo. Il separatore delle risorse CSV è ";" (punto e virgola).</dct:description>
+    <dct:identifier>WQF3ZW8F:cammini-religiosi-in-italia</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="WQF3ZW8F">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100222">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">3231 informazione ed elaborazione dell'informazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-05</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dcat:keyword>Turismo</dcat:keyword>
+    <dcat:keyword>Cammini religiosi</dcat:keyword>
+    <dcat:keyword>Percorsi</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi-in-italia/zip10"/>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi-in-italia/csv11"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/EDUC">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi-per-area-territoriale">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:license/>
+    <dct:title>Cammini religiosi per Area Territoriale</dct:title>
+    <dcat:landingPage rdf:resource="https://www.ministeroturismo.gov.it/open-data//"/>
+    <dct:description>Il dataset mostra le Aree Territoriali attraversate da ciascun cammino religioso presente nel Catalogo come previsto dall’avviso pubblico del 28/11/2022. Il separatore delle risorse CSV è ";" (punto e virgola).</dct:description>
+    <dct:identifier>WQF3ZW8F:cammini-religiosi-per-area-territoriale</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="WQF3ZW8F">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100222">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">3231 informazione ed elaborazione dell'informazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-05</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dcat:keyword>Turismo</dcat:keyword>
+    <dcat:keyword>Cammini religiosi</dcat:keyword>
+    <dcat:keyword>Percorsi</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi-per-area-territoriale/zip12"/>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi-per-area-territoriale/csv13"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/EDUC">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi-per-regione">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:license/>
+    <dct:title>Cammini religiosi per Regione</dct:title>
+    <dcat:landingPage rdf:resource="https://www.ministeroturismo.gov.it/open-data//"/>
+    <dct:description>Il dataset mostra le Regioni attraversate da ciascun cammino religioso presente nel Catalogo come previsto dall’avviso pubblico del 28/11/2022. Il separatore delle risorse CSV è ";" (punto e virgola).</dct:description>
+    <dct:identifier>WQF3ZW8F:cammini-religiosi-per-regione</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="WQF3ZW8F">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100222">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">3231 informazione ed elaborazione dell'informazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-05</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dcat:keyword>Turismo</dcat:keyword>
+    <dcat:keyword>Cammini religiosi</dcat:keyword>
+    <dcat:keyword>Percorsi</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi-per-regione/zip14"/>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi-per-regione/csv15"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/EDUC">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:license/>
+    <dct:title>Cammini religiosi</dct:title>
+    <dcat:landingPage rdf:resource="https://www.ministeroturismo.gov.it/open-data//"/>
+    <dct:description>Il dataset offre una panoramica dettagliata dei cammini religiosi in Italia presenti nel Catalogo dei cammini religiosi italiani in conformità all’avviso pubblico del 28/11/2022. Mostra per ciascun cammino la lunghezza, il numero totale di standard riconosciuti, il numero dei tracciati definiti e percorribili, il numero di georeferenziazione, il numero di loghi, il numero delle segnaletiche, il numero di siti web, il numero dei servizi al turista, il numero di credenziali e il numero soggetto di governo. Il separatore delle risorse CSV è ";" (punto e virgola).</dct:description>
+    <dct:identifier>WQF3ZW8F:cammini-religiosi</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="WQF3ZW8F">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100222">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">3231 informazione ed elaborazione dell'informazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-05</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dcat:keyword>Turismo</dcat:keyword>
+    <dcat:keyword>Cammini religiosi</dcat:keyword>
+    <dcat:keyword>Percorsi</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi/zip16"/>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi/csv17"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/EDUC">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://www.ministeroturismo.gov.it/open-data//professioni-turistiche">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:license/>
+    <dct:title>Professioni turistiche</dct:title>
+    <dcat:landingPage rdf:resource="https://www.ministeroturismo.gov.it/open-data//"/>
+    <dct:description>Il dataset offre una panoramica dei professionisti operanti nel settore turistico in Italia che hanno ottenuto il riconoscimento del titolo conseguito all’estero con pubblicazione del relativo decreto nel 2024. Contiene dati relativi al numero di guide turistiche temporanee e con diritto di stabilimento, degli accompagnatori turistici e dei direttori tecnici di agenzia di viaggi e turismo ai sensi del decreto legislativo 9 novembre 2007, n.206. Il separatore delle risorse CSV è ";" (punto e virgola).</dct:description>
+    <dct:identifier>WQF3ZW8F:professioni-turistiche</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="WQF3ZW8F">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100222">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">3231 informazione ed elaborazione dell'informazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dcat:keyword>Turismo</dcat:keyword>
+    <dcat:keyword>Professioni turistiche</dcat:keyword>
+    <dcat:keyword>Accompagnatori turistici</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//professioni-turistiche/zip18"/>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//professioni-turistiche/csv19"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/EDUC">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://www.ministeroturismo.gov.it/open-data//guide-turistiche-con-diritto-di-stabilimento-per-paesi-eu">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:license/>
+    <dct:title>Guide turistiche con diritto di stabilimento per Paesi EU</dct:title>
+    <dcat:landingPage rdf:resource="https://www.ministeroturismo.gov.it/open-data//"/>
+    <dct:description>lI dataset offre una panoramica delle guide turistiche che hanno ottenuto il riconoscimento del titolo professionale conseguito nei Paesi dell'Unione Europea (EU) con pubblicazione del relativo decreto nel 2024, così come previsto dal decreto legislativo 9 novembre 2007, n.206. Il separatore delle risorse CSV è ";" (punto e virgola).</dct:description>
+    <dct:identifier>WQF3ZW8F:guide-turistiche-con-diritto-di-stabilimento-per-paesi-eu</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="WQF3ZW8F">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100222">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">3231 informazione ed elaborazione dell'informazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dcat:keyword>Turismo</dcat:keyword>
+    <dcat:keyword>Professioni turistiche</dcat:keyword>
+    <dcat:keyword>Guide Turistiche</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//guide-turistiche-con-diritto-di-stabilimento-per-paesi-eu/zip20"/>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//guide-turistiche-con-diritto-di-stabilimento-per-paesi-eu/csv21"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/EDUC">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://www.ministeroturismo.gov.it/open-data//guide-turistiche-con-diritto-di-stabilimento-per-paesi-extra-eu">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:license/>
+    <dct:title>Guide turistiche con diritto di stabilimento per Paesi Extra-EU</dct:title>
+    <dcat:landingPage rdf:resource="https://www.ministeroturismo.gov.it/open-data//"/>
+    <dct:description>lI dataset offre una panoramica delle guide turistiche che hanno ottenuto il riconoscimento del titolo professionale conseguito nei Paesi al di fuori dell'Unione Europea (Extra-EU) con pubblicazione del relativo decreto nel 2024, così come previsto dal decreto legislativo 9 novembre 2007, n.206 Il separatore delle risorse CSV è ";" (punto e virgola).</dct:description>
+    <dct:identifier>WQF3ZW8F:guide-turistiche-con-diritto-di-stabilimento-per-paesi-extra-eu</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="WQF3ZW8F">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100222">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">3231 informazione ed elaborazione dell'informazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dcat:keyword>Turismo</dcat:keyword>
+    <dcat:keyword>Professioni turistiche</dcat:keyword>
+    <dcat:keyword>Guide Turistiche</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//guide-turistiche-con-diritto-di-stabilimento-per-paesi-extra-eu/zip22"/>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//guide-turistiche-con-diritto-di-stabilimento-per-paesi-extra-eu/csv23"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/EDUC">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://www.ministeroturismo.gov.it/open-data//guide-turistiche-temporanee">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:license/>
+    <dct:title>Guide turistiche temporanee</dct:title>
+    <dcat:landingPage rdf:resource="https://www.ministeroturismo.gov.it/open-data//"/>
+    <dct:description>lI dataset offre una panoramica delle guide turistiche in possesso di un titolo professionale conseguito nei Paesi dell'Unione Europea (EU) che hanno fatto domanda di prestazione temporanea con pubblicazione del nominativo nel relativo elenco, così come previsto dal decreto legislativo 9 novembre 2007, n.206 Il separatore delle risorse CSV è ";" (punto e virgola).</dct:description>
+    <dct:identifier>WQF3ZW8F:guide-turistiche-temporanee</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="WQF3ZW8F">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100222">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">3231 informazione ed elaborazione dell'informazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dcat:keyword>Turismo</dcat:keyword>
+    <dcat:keyword>Professioni turistiche</dcat:keyword>
+    <dcat:keyword>Guide Turistiche</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//guide-turistiche-temporanee/zip24"/>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//guide-turistiche-temporanee/csv25"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/EDUC">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://www.ministeroturismo.gov.it/open-data//accompagnatori-turistici-per-paesi-eu">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:license/>
+    <dct:title>Accompagnatori turistici per Paesi EU</dct:title>
+    <dcat:landingPage rdf:resource="https://www.ministeroturismo.gov.it/open-data//"/>
+    <dct:description>lI dataset offre una panoramica degli accompagnatori turistici che hanno ottenuto il riconoscimento del titolo professionale conseguito nei Paesi dell'Unione Europea (EU) con pubblicazione del relativo decreto nel 2024, così come previsto dal decreto legislativo 9 novembre 2007, n.206 Il separatore delle risorse CSV è ";" (punto e virgola).</dct:description>
+    <dct:identifier>WQF3ZW8F:accompagnatori-turistici-per-paesi-eu</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="WQF3ZW8F">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100222">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">3231 informazione ed elaborazione dell'informazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dcat:keyword>Turismo</dcat:keyword>
+    <dcat:keyword>Professioni turistiche</dcat:keyword>
+    <dcat:keyword>Accompagnatori turistici</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//accompagnatori-turistici-per-paesi-eu/zip26"/>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//accompagnatori-turistici-per-paesi-eu/csv27"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/EDUC">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://www.ministeroturismo.gov.it/open-data//accompagnatori-turistici-per-paesi-extra-eu">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:license/>
+    <dct:title>Accompagnatori turistici per Paesi Extra-EU</dct:title>
+    <dcat:landingPage rdf:resource="https://www.ministeroturismo.gov.it/open-data//"/>
+    <dct:description>lI dataset offre una panoramica degli accompagnatori turistici che hanno ottenuto il riconoscimento del titolo professionale conseguito nei Paesi al di fuori dell'Unione Europea (Extra-EU) con pubblicazione del relativo decreto nel 2024, così come previsto dal decreto legislativo 9 novembre 2007, n.206. Il separatore delle risorse CSV è ";" (punto e virgola).</dct:description>
+    <dct:identifier>WQF3ZW8F:accompagnatori-turistici-per-paesi-extra-eu</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="WQF3ZW8F">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100222">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">3231 informazione ed elaborazione dell'informazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dcat:keyword>Turismo</dcat:keyword>
+    <dcat:keyword>Professioni turistiche</dcat:keyword>
+    <dcat:keyword>Accompagnatori turistici</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//accompagnatori-turistici-per-paesi-extra-eu/zip28"/>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//accompagnatori-turistici-per-paesi-extra-eu/csv29"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/EDUC">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://www.ministeroturismo.gov.it/open-data//direttori-tecnici-d’agenzia-di-viaggio-e-turismo-per-paesi-eu">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:license/>
+    <dct:title>Direttori tecnici d’agenzia di viaggio e turismo per Paesi EU</dct:title>
+    <dcat:landingPage rdf:resource="https://www.ministeroturismo.gov.it/open-data//"/>
+    <dct:description>lI dataset offre una panoramica dei direttori d'agenzia di viaggio e turismo che hanno ottenuto il riconoscimento del titolo professionale conseguito nei Paesi dell'Unione Europea (EU) con pubblicazione del relativo decreto nel 2024, così come previsto dal decreto legislativo 9 novembre 2007, n.206. Il separatore delle risorse CSV è ";" (punto e virgola).</dct:description>
+    <dct:identifier>WQF3ZW8F:direttori-tecnici-d’agenzia-di-viaggio-e-turismo-per-paesi-eu</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="WQF3ZW8F">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100222">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">3231 informazione ed elaborazione dell'informazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dcat:keyword>Turismo</dcat:keyword>
+    <dcat:keyword>Professioni turistiche</dcat:keyword>
+    <dcat:keyword>Direttori di agenzia</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//direttori-tecnici-d’agenzia-di-viaggio-e-turismo-per-paesi-eu/zip30"/>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//direttori-tecnici-d’agenzia-di-viaggio-e-turismo-per-paesi-eu/csv31"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/EDUC">
+    <skos:prefLabel>Istruzione, cultura e sport</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://www.ministeroturismo.gov.it/open-data//direttori-tecnici-d’agenzia-di-viaggio-e-turismo-per-paesi-extra-eu">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+    <dct:license/>
+    <dct:title>Direttori tecnici d’agenzia di viaggio e turismo per Paesi Extra-EU</dct:title>
+    <dcat:landingPage rdf:resource="https://www.ministeroturismo.gov.it/open-data//"/>
+    <dct:description>lI dataset offre una panoramica dei direttori d'agenzia di viaggio e turismo che hanno ottenuto il riconoscimento del titolo professionale conseguito nei Paesi al di fuori dell'Unione Europea (Extra-EU) con pubblicazione del relativo decreto nel 2024, così come previsto dal decreto legislativo 9 novembre 2007, n.206. Il separatore delle risorse CSV è ";" (punto e virgola).</dct:description>
+    <dct:identifier>WQF3ZW8F:direttori-tecnici-d’agenzia-di-viaggio-e-turismo-per-paesi-extra-eu</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="WQF3ZW8F">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>WQF3ZW8F</dct:identifier>
+        <foaf:name>Direzione Generale Tecnologia, Retribuzione, Digitalizzazione e Statistica</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100222">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">3231 informazione ed elaborazione dell'informazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ministeroturismo.gov.it/"/>
+    <dcat:keyword>Turismo</dcat:keyword>
+    <dcat:keyword>Professioni turistiche</dcat:keyword>
+    <dcat:keyword>Direttori di agenzia</dcat:keyword>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//direttori-tecnici-d’agenzia-di-viaggio-e-turismo-per-paesi-extra-eu/zip32"/>
+    <dcat:distribution rdf:resource="https://www.ministeroturismo.gov.it/open-data//direttori-tecnici-d’agenzia-di-viaggio-e-turismo-per-paesi-extra-eu/csv33"/>
+  </dcatapit:Dataset>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-in-italia/zip2">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/banca%5Fdati%5Fstrutture%5Fricettive%5Fper%5Fitalia.zip"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="ZIP"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato ZIP per l'interoperabilità</dct:description>
+    <dct:title>banca-dati-strutture-ricettive-in-italia ZIP</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-in-italia/csv3">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/banca%5Fdati%5Fstrutture%5Fricettive%5Fper%5Fitalia-1.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>banca-dati-strutture-ricettive-in-italia CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-per-area-territoriale/zip4">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/banca%5Fdati%5Fstrutture%5Fricettive%5Fper%5Farea%5Fterritoriale.zip"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="ZIP"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato ZIP per l'interoperabilità</dct:description>
+    <dct:title>banca-dati-strutture-ricettive-per-area-territoriale ZIP</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-per-area-territoriale/csv5">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/banca%5Fdati%5Fstrutture%5Fricettive%5Fper%5Farea%5Fterritoriale.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>banca-dati-strutture-ricettive-per-area-territoriale CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-per-regione/zip6">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/banca%5Fdati%5Fstrutture%5Fricettive%5Fper%5Fregione.zip"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="ZIP"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato ZIP per l'interoperabilità</dct:description>
+    <dct:title>banca-dati-strutture-ricettive-per-regione ZIP</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-per-regione/csv7">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/banca%5Fdati%5Fstrutture%5Fricettive%5Fper%5Fregione.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>banca-dati-strutture-ricettive-per-regione CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-per-provincia/zip8">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/banca%5Fdati%5Fstrutture%5Fricettive%5Fper%5Fprovincia.zip"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="ZIP"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato ZIP per l'interoperabilità</dct:description>
+    <dct:title>banca-dati-strutture-ricettive-per-provincia ZIP</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//banca-dati-strutture-ricettive-per-provincia/csv9">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/banca%5Fdati%5Fstrutture%5Fricettive%5Fper%5Fprovincia.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>banca-dati-strutture-ricettive-per-provincia CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi-in-italia/zip10">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/cammini%5Freligiosi%5Fin%5Fitalia.zip"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="ZIP"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato ZIP per l'interoperabilità</dct:description>
+    <dct:title>cammini-religiosi-in-italia ZIP</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi-in-italia/csv11">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/cammini%5Freligiosi%5Fin%5Fitalia.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>cammini-religiosi-in-italia CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi-per-area-territoriale/zip12">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/cammini%5Freligiosi%5Fper%5Farea%5Fterritoriale.zip"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="ZIP"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato ZIP per l'interoperabilità</dct:description>
+    <dct:title>cammini-religiosi-per-area-territoriale ZIP</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi-per-area-territoriale/csv13">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/cammini%5Freligiosi%5Fper%5Farea%5Fterritoriale.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>cammini-religiosi-per-area-territoriale CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi-per-regione/zip14">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/cammini%5Freligiosi%5Fper%5Fregione.zip"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="ZIP"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato ZIP per l'interoperabilità</dct:description>
+    <dct:title>cammini-religiosi-per-regione ZIP</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi-per-regione/csv15">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/cammini%5Freligiosi%5Fper%5Fregione.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>cammini-religiosi-per-regione CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi/zip16">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/cammini%5Freligiosi.zip"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="ZIP"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato ZIP per l'interoperabilità</dct:description>
+    <dct:title>cammini-religiosi ZIP</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//cammini-religiosi/csv17">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/cammini%5Freligiosi.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>cammini-religiosi CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//professioni-turistiche/zip18">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/professioni%5Fturistiche.zip"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="ZIP"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato ZIP per l'interoperabilità</dct:description>
+    <dct:title>professioni-turistiche ZIP</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//professioni-turistiche/csv19">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/professioni%5Fturistiche.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>professioni-turistiche CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//guide-turistiche-con-diritto-di-stabilimento-per-paesi-eu/zip20">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/guide%5Fturistiche%5Fper%5Fpaesi%5Feu.zip"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="ZIP"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato ZIP per l'interoperabilità</dct:description>
+    <dct:title>guide-turistiche-con-diritto-di-stabilimento-per-paesi-eu ZIP</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//guide-turistiche-con-diritto-di-stabilimento-per-paesi-eu/csv21">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/guide%5Fturistiche%5Fcon%5Fdiritto%5Fdi%5Fstabilimento%5Fper%5Fpaesi%5Feu.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>guide-turistiche-con-diritto-di-stabilimento-per-paesi-eu CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//guide-turistiche-con-diritto-di-stabilimento-per-paesi-extra-eu/zip22">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/guide%5Fturistiche%5Fper%5Fpaesi%5Fextra%5Feu.zip"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="ZIP"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato ZIP per l'interoperabilità</dct:description>
+    <dct:title>guide-turistiche-con-diritto-di-stabilimento-per-paesi-extra-eu ZIP</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//guide-turistiche-con-diritto-di-stabilimento-per-paesi-extra-eu/csv23">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/guide%5Fturistiche%5Fcon%5Fdiritto%5Fdi%5Fstabilimento%5Fper%5Fpaesi%5Fextra%5Feu-1.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>guide-turistiche-con-diritto-di-stabilimento-per-paesi-extra-eu CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//guide-turistiche-temporanee/zip24">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/guide%5Fturistiche%5Ftemporanee.zip"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="ZIP"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato ZIP per l'interoperabilità</dct:description>
+    <dct:title>guide-turistiche-temporanee ZIP</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//guide-turistiche-temporanee/csv25">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/guide%5Fturistiche%5Ftemporanee.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>guide-turistiche-temporanee CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//accompagnatori-turistici-per-paesi-eu/zip26">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/accompagnatori%5Fpaesi%5Feu.zip"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="ZIP"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato ZIP per l'interoperabilità</dct:description>
+    <dct:title>accompagnatori-turistici-per-paesi-eu ZIP</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//accompagnatori-turistici-per-paesi-eu/csv27">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/accompagnatori%5Fturistici%5Fper%5Fpaesi%5Feu.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>accompagnatori-turistici-per-paesi-eu CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//accompagnatori-turistici-per-paesi-extra-eu/zip28">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/accompagnatori%5Fpaesi%5Fextra%5Feu.zip"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="ZIP"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato ZIP per l'interoperabilità</dct:description>
+    <dct:title>accompagnatori-turistici-per-paesi-extra-eu ZIP</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//accompagnatori-turistici-per-paesi-extra-eu/csv29">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/accompagnatori%5Fturistici%5Fper%5Fpaesi%5Fextra%5Feu.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>accompagnatori-turistici-per-paesi-extra-eu CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//direttori-tecnici-d’agenzia-di-viaggio-e-turismo-per-paesi-eu/zip30">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/direttori%5Ftecnici%5Fper%5Fpaesi%5Feu.zip"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="ZIP"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato ZIP per l'interoperabilità</dct:description>
+    <dct:title>direttori-tecnici-d'agenzia-di-viaggio-e-turismo-per-paesi-eu ZIP</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//direttori-tecnici-d’agenzia-di-viaggio-e-turismo-per-paesi-eu/csv31">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/direttori%5Ftecnici%5Fd%5Fagenzia%5Fdi%5Fviaggio%5Fe%5Fturismo%5Fper%5Fpaesi%5Feu.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>direttori-tecnici-d'agenzia-di-viaggio-e-turismo-per-paesi-eu CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//direttori-tecnici-d’agenzia-di-viaggio-e-turismo-per-paesi-extra-eu/zip32">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/direttori%5Ftecnici%5Fper%5Fpaesi%5Fextra%5Feu.zip"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="ZIP"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato ZIP per l'interoperabilità</dct:description>
+    <dct:title>direttori-tecnici-d'agenzia-di-viaggio-e-turismo-per-paesi-extra-eu ZIP</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://www.ministeroturismo.gov.it/open-data//direttori-tecnici-d’agenzia-di-viaggio-e-turismo-per-paesi-extra-eu/csv33">
+    <dcat:accessURL rdf:resource="https://www.ministeroturismo.gov.it/wp-content/uploads/2024/12/direttori%5Ftecnici%5Fd%5Fagenzia%5Fdi%5Fviaggio%5Fe%5Fturismo%5Fper%5Fpaesi%5Fextra%5Feu.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>direttori-tecnici-d'agenzia-di-viaggio-e-turismo-per-paesi-extra-eu CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+<dcatapit:Organization rdf:about="https://www.ministeroturismo.gov.it/">
+  <rdf:type rdf:resource="vcard:Organization"/>
+  <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdf:type rdf:resource="vcard:Kind"/>
+  <vcard:fn>Direzione Generale Controllo, Regolamentazione, Acquisti, Formazione e Professioni turistiche</vcard:fn>
+  <vcard:hasEmail rdf:resource="info.bdsr@ministeroturismo.gov.it"/>
+  <vcard:hasTelephone>06164169910</vcard:hasTelephone>
+  <vcard:hasURL rdf:resource="https://www.ministeroturismo.gov.it/"/>
+</dcatapit:Organization>
+</rdf:RDF>
